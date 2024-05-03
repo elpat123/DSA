@@ -1,7 +1,11 @@
 # Student no: 21721463
 
 import Graphs as gr
-import Other as ot
+import Maint as ot
+
+
+m = ot.msgs()
+
 
 def displayMenu():
     print("\n----------------------------------")
@@ -27,7 +31,7 @@ def add_node():
             #bst.insert(add_nd, nd_desc)
 
             # Add another?
-            inp_nd = input('\nDo you want to add another node? (y/n): ')
+            inp_nd = input(m.msg_anot('add'))
             while inp_nd != 'y' and inp_nd != 'n':
                 print('Wrong input. Please enter (y) or (n) as response.')
                 inp_nd = input('\nDo you want to add another node? (y/n): ')
