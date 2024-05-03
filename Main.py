@@ -1,6 +1,7 @@
 # Student no: 21721463
 
 import Graphs as gr
+import Other as ot
 
 def displayMenu():
     print("\n----------------------------------")

@@ -1,3 +1,5 @@
+import Other as ot
+
 class DSAGraph:
     def __init__(self, graph):
         pass
